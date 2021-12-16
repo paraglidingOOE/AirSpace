@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Hinterstoder Airspace</name>
+	<description><![CDATA[<p><strong style="color: red;">Respektiere deine Grenzen!</strong></p><p><strong style="color: red;">Respect your limits!</strong></p><p><strong style="color: red;">Respektuj své limity!</strong></p><p>Damit wir dieses Fluggebiet so gut es geht erhalten können bitten wir um Einhaltung der Flugraumbeschränkungen.
+		Somit ist ein Miteinander unter Flugsport + Jagd + Bewirtschaftung möglich.</p><p>Please respect this limitations and protect the nature, so sport, chase and cultivation can life together.</p><p>Abychom mohli letový prostor využívat co nejlépe, prosíme o respektování ohraničení letového prostoru. Pro společné soužití leteckého sportu, lovu a hospodářství.</p>]]></description>
+	<Style id="transRedPoly">
+		<LineStyle>
+			<color>000000ff</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>660000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="forbidden">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/forbidden.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="transGreenPoly">
+		<LineStyle>
+			<color>0000ff55</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="transGreenPoly2">
+		<LineStyle>
+			<color>005050c8</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="transOrangePoly">
+		<LineStyle>
+			<color>000055ff</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>660055ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="transblueLine">
+		<LineStyle>
+			<color>66ff0000</color>
+			<width>10.0</width>
+		</LineStyle>
+	</Style>
+	<Style id="transyellowLine">
+		<LineStyle>
+			<color>6600ffff</color>
+			<width>10.0</width>
+		</LineStyle>
+	</Style>
+	<Style id="windsock_icon">
+		<IconStyle>
+			<Icon>
+				<href>https://image.flaticon.com/icons/png/128/305/305843.png</href>
+				<!--<href>http://s1.iconbird.com/ico/2013/8/426/w64h64137758473197AirSock.png</href> -->
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="danger_icon">
+		<IconStyle>
+			<Icon>
+				<href>https://www.code-knacker.de/images/seitenwind_r_120.gif</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="thermik_spot">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="attention_area">
+		<IconStyle>
+			<color>ff00AAff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder id="böden">
+		<name>Hutter Böden</name>
+		<styleUrl>#forbidden</styleUrl>
+		<Placemark>
+			<name>Hutterer Böden</name>
+			<description><![CDATA[
+				<p><strong style="color: red;">Landen streng verboten!</strong></p>
+				<p><strong style="color: red;">Landing strictly forbidden!</strong></p>
+				<p><strong style="color: red;">Přistání přísně zakázáno!</strong></p>
+				<p>Auf der Mittelstation (Hutterer Böden) ist das Einlanden aufgrund der Seile der Schilifte und der Weidezäune verboten.</p>
+				<p>Landing at Mittelstation is forbidden due to the presence of ski lifts and pasture fenced.</p>
+				<p>Přistání na mezistanici (Hutterer Böden) je kvůli lanům lyžařských vleků a plotům zakázáno.</p>]]>
+			</description>
+			<styleUrl>#transRedPoly</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.16360184765755,47.67712133614784,0 14.16335469352611,47.67488115168095,0 14.16558042510289,47.67295839000124,0 14.170861487,47.67587501191143,0 14.17036930600806,47.67819283896584,0 14.16697540992533,47.67901834200918,0 14.16360184765755,47.67712133614784,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Alm - Lake</name>
+			<description><![CDATA[
+				<p><strong style="color: red;">Landen streng verboten!</strong></p>
+				<p><strong style="color: red;">Landing strictly forbidden!</strong></p>
+				<p><strong style="color: red;">Přistání přísně zakázáno!</strong></p>
+				<p>Landen ist wegen der Bewirtschaftung mit Rindern verboten. Das Überfliegen wird mit einem Mindestabstand von 100m über Grund geduldet.</p>
+				<p>Landing forbidden due to cattle farming. Overflights of this area are allowed at keeping a minimum altitude of 100m above ground.</p>
+				<p>Přistání na mezistanici (Hutterer Böden) je kvůli lanům lyžařských vleků a plotům zakázáno. Přelet bude tolerován s minimální výškou 100 m nad terénem.</p>]]>
+			</description>
+			<styleUrl>#transRedPoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.152,47.668,1550 14.154,47.67000000000001,1550 14.152,47.673,1550 14.1485,47.6725,1550 14.152,47.668,1550 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder id="Schafkögel">
+		<name>Schafkögel Plateau</name>
+		<styleUrl>#forbidden</styleUrl>
+		<Placemark>
+			<name>Schafkögel - lake</name>
+			<description><![CDATA[
+				<p><strong style="color: red;">Starten und Landen streng verboten!</strong></p>
+				<p><strong style="color: red;">Launching and landing strictly forbidden!</strong></p>
+				<p><strong style="color: red;">Startovat a přistávat přísně zakázáno!</strong></p>
+				<p>Am Hochplateau süd-östlich des oberen Speicherteiches, über die Schafkögel bis zum Schrocken (roter Bereich), ist das LANDEN und STARTEN ausdrücklich vom Grundeigentümer untersagt. Das Überfliegen wird mit einem Mindestabstand von 100m über Grund geduldet.</p>
+				<p>The landowner strictly forbids LAUNCHING and LANDING between the upper snow making pond and the Schafkögel and Schocken. Overflights of this area are allowed at keeping a minimum altitude of 100m above ground.</p>
+				<p>Na náhorní plošině JV od horního zásobovacího jezera přes Schafkögel ke Schrockenu (červená zóna), je vlastníkem pozemku zakázáno PŘISTÁVAT a STARTOVAT. Přelet bude tolerován s minimální výškou 100 m nad terénem.</p>]]>
+			</description>
+			<styleUrl>#transRedPoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.17,47.66200000000001,1950 14.1794,47.66,2000 14.178,47.66500000000001,1950 14.17,47.66200000000001,1950 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Schafkögel - N</name>
+			<description><![CDATA[
+				<p><strong style="color: red;">Starten und Landen streng verboten!</strong></p>
+				<p><strong style="color: red;">Launching and landing strictly forbidden!</strong></p>
+				<p><strong style="color: red;">Startovat a přistávat přísně zakázáno!</strong></p>
+				<p>Am Hochplateau süd-östlich des oberen Speicherteiches, über die Schafkögel bis zum Schrocken (roter Bereich), ist das LANDEN und STARTEN ausdrücklich vom Grundeigentümer untersagt. Das Überfliegen wird mit einem Mindestabstand von 100m über Grund geduldet.</p>
+				<p>The landowner strictly forbids LAUNCHING and LANDING between the upper snow making pond and the Schafkögel and Schocken. Overflights of this area are allowed at keeping a minimum altitude of 100m above ground.</p>
+				<p>Na náhorní plošině JV od horního zásobovacího jezera přes Schafkögel ke Schrockenu (červená zóna), je vlastníkem pozemku zakázáno PŘISTÁVAT a STARTOVAT. Přelet bude tolerován s minimální výškou 100 m nad terénem.</p>]]>
+			</description>
+			<styleUrl>#transRedPoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.17,47.66200000000001,1950 14.1745,47.657,2100 14.1794,47.66,2000 14.17,47.66200000000001,1950 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Schafkögel - TOP NO</name>
+			<description><![CDATA[<p><strong style="color: red;">Starten und Landen streng verboten!</strong></p><p><strong style="color: red;">Launching and landing strictly forbidden!</strong></p><p><strong style="color: red;">Startovat a přistávat přísně zakázáno!</strong></p><p>Am Hochplateau süd-östlich des oberen Speicherteiches, über die Schafkögel bis zum Schrocken (roter Bereich), ist das LANDEN und STARTEN ausdrücklich vom Grundeigentümer untersagt. Das Überfliegen wird mit einem Mindestabstand von 100m über Grund geduldet.</p><p>The landowner strictly forbids LAUNCHING and LANDING between the upper snow making pond and the Schafkögel and Schocken. Overflights of this area are allowed at keeping a minimum altitude of 100m above ground.</p><p>Na náhorní plošině JV od horního zásobovacího jezera přes Schafkögel ke Schrockenu (červená zóna), je vlastníkem pozemku zakázáno PŘISTÁVAT a STARTOVAT. Přelet bude tolerován s minimální výškou 100 m nad terénem.</p>]]></description>
+			<styleUrl>#transRedPoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.1745,47.657,2100 14.18,47.6577,2100 14.1794,47.66,2000 14.1745,47.657,2100 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Schafkögel - Top</name>
+			<description><![CDATA[<p><strong style="color: red;">Starten und Landen streng verboten!</strong></p><p><strong style="color: red;">Launching and landing strictly forbidden!</strong></p><p><strong style="color: red;">Startovat a přistávat přísně zakázáno!</strong></p><p>Am Hochplateau süd-östlich des oberen Speicherteiches, über die Schafkögel bis zum Schrocken (roter Bereich), ist das LANDEN und STARTEN ausdrücklich vom Grundeigentümer untersagt. Das Überfliegen wird mit einem Mindestabstand von 100m über Grund geduldet.</p><p>The landowner strictly forbids LAUNCHING and LANDING between the upper snow making pond and the Schafkögel and Schocken. Overflights of this area are allowed at keeping a minimum altitude of 100m above ground.</p><p>Na náhorní plošině JV od horního zásobovacího jezera přes Schafkögel ke Schrockenu (červená zóna), je vlastníkem pozemku zakázáno PŘISTÁVAT a STARTOVAT. Přelet bude tolerován s minimální výškou 100 m nad terénem.</p>]]></description>
+			<styleUrl>#transRedPoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.1745,47.657,2100 14.174,47.6555,2100 14.181,47.6495,2100 14.18,47.6577,2100 14.1745,47.657,2100 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Schafkögel</name>
+			<description><![CDATA[<p><strong style="color: red;">Starten und Landen streng verboten!</strong></p><p><strong style="color: red;">Launching and landing strictly forbidden!</strong></p><p><strong style="color: red;">Startovat a přistávat přísně zakázáno!</strong></p><p>Am Hochplateau süd-östlich des oberen Speicherteiches, über die Schafkögel bis zum Schrocken (roter Bereich), ist das LANDEN und STARTEN ausdrücklich vom Grundeigentümer untersagt. Das Überfliegen wird mit einem Mindestabstand von 100m über Grund geduldet.</p><p>The landowner strictly forbids LAUNCHING and LANDING between the upper snow making pond and the Schafkögel and Schocken. Overflights of this area are allowed at keeping a minimum altitude of 100m above ground.</p><p>Na náhorní plošině JV od horního zásobovacího jezera přes Schafkögel ke Schrockenu (červená zóna), je vlastníkem pozemku zakázáno PŘISTÁVAT a STARTOVAT. Přelet bude tolerován s minimální výškou 100 m nad terénem.</p>]]></description>
+			<styleUrl>#forbidden</styleUrl>
+			<Point>
+				<coordinates>14.177,47.65599999999999,2200</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="south-east">
+		<name>Südöstlich von Startplatz West</name>
+		<styleUrl>#attention_area</styleUrl>
+		<Placemark>
+			<name>Schafkögel - SO</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.174,47.6555,2100 14.1715,47.6544,2100 14.184,47.646,2100 14.181,47.6495,2100 14.174,47.6555,2100 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Schafkögel - S</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.184,47.646,2100 14.1715,47.6544,2100 14.159,47.6505,1600 14.184,47.646,2100 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Schrocken - N</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.184,47.646,2100 14.159,47.6505,1600 14.173,47.638,2100 14.184,47.646,2100 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SouthEast I</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.1745,47.657,2100 14.17,47.66200000000001,1950 14.174,47.6555,2100 14.1745,47.657,2100 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SouthEast II</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.17,47.66200000000001,1950 14.1673,47.6614,1950 14.1715,47.6544,2100 14.174,47.6555,2100 14.17,47.66200000000001,1950 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SouthEast - valley</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.1673,47.6614,1950 14.1715,47.6544,2100 14.159,47.6505,1600 14.146,47.657,1200 14.1673,47.6614,1950 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder id="south-west">
+		<name>Westlich von Startplatz West</name>
+		<styleUrl>#attention_area</styleUrl>
+		<Placemark>
+			<name>SouthWest - startarea</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.17,47.66200000000001,1700 14.167,47.66400000000001,1650 14.163,47.6624,1650 14.1673,47.6614,1700 14.17,47.66200000000001,1700 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SouthWest - thermalspot I</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.167,47.66400000000001,1650 14.163,47.6624,1650 14.1565,47.66400000000001,1500 14.1595,47.66669999999999,1500 14.167,47.66400000000001,1650 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SouthWest - lake</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.1565,47.66400000000001,1500 14.1595,47.66669999999999,1500 14.152,47.668,1450 14.15,47.66550000000001,1450 14.1565,47.66400000000001,1500 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SouthWest - termalspot II</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.152,47.668,1450 14.15,47.66550000000001,1450 14.1445,47.671,1400 14.147,47.67150000000001,1400 14.152,47.668,1450 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SW - valley I</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.1673,47.6614,1700 14.163,47.6624,1650 14.146,47.657,1200 14.1673,47.6614,1700 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SW - valley II</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.163,47.6624,1650 14.1565,47.66400000000001,1500 14.146,47.657,1200 14.163,47.6624,1650 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SW - valley III</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.1565,47.66400000000001,1500 14.15,47.66550000000001,1450 14.133,47.668,1000 14.146,47.657,1200 14.1565,47.66400000000001,1500 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>SW - valley III</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.15,47.66550000000001,1450 14.1445,47.671,1400 14.133,47.668,1000 14.15,47.66550000000001,1450 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Weißenbach_Eingang I</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.147,47.67150000000001,1400 14.1445,47.671,1400 14.124,47.675,800.0000000000001 14.147,47.67150000000001,1400 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Weißenbach_Eingang II</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.1445,47.671,1400 14.133,47.668,1000 14.124,47.675,800.0000000000001 14.1445,47.671,1400 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder id="rothtal">
+		<name>Rothtal</name>
+		<styleUrl>#attention_area</styleUrl>
+		<Placemark>
+			<name>Rothtal N</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.1794,47.66,2000 14.18,47.6577,2100 14.182,47.65900000000001,1800 14.1794,47.66,2000 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rothtal - E</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.182,47.65900000000001,1800 14.185,47.64999999999999,1950 14.18,47.6577,2100 14.182,47.65900000000001,1800 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rothtal - Schafkögl</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.185,47.64999999999999,1950 14.18,47.6577,2100 14.181,47.6495,2100 14.185,47.64999999999999,1950 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Rothtal - Schrocken</name>
+			<description><![CDATA[<p><strong style="color: orange;">Verlasse diesen Bereich auf kürzestem Weg!</strong></p><p><strong style="color: orange;">Leaf this area on shortest path!</strong></p><p><strong style="color: orange;">Opusťte tento prostor nejkratší možnou cestou!</strong></p><p>Mindestabstände von 100m horizontal und vertikal über Grund sind in diesem Bereich einzuhalten. Soaring ist in diesem Bereich verboten.</p><p>Minimum distances of 100m above ground and lateral have to be adhered to in this area. Soaring in this area is also forbidden.</p><p>V této oblasti dodržujte minimální vzdálenost 100 m od úrovně terénu (horizontálně i vertikálně). Svahování je v této oblasti zakázáno.</p>]]></description>
+			<styleUrl>#transOrangePoly</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.185,47.64999999999999,1950 14.181,47.6495,2100 14.184,47.646,2100 14.185,47.64999999999999,1950 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder id="launching">
+		<name>Startplätze</name>
+		<Placemark>
+			<name>Startplatz West</name>
+			<styleUrl>#windsock_icon</styleUrl>
+			<Point>
+				<coordinates>14.169661,47.664712,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Startplatz W-SW</name>
+			<description><![CDATA[
+				<p><strong style="color: green;">Startplatz W-SW</strong></p>
+				<p><strong style="color: green;">Launching area W-SW</strong></p>
+				<p><strong style="color: green;">Startovací plocha</strong></p>
+				<p><strong style="color: red;">Tandempiloten und Schulungsbestätigungsinhaber</strong> melden
+					sich vor dem Start bei der Flugschule an. Keine gewerblichen
+					Flüge oder Schulungen ohne schriftliche Genehmigung durch
+					die Flugschule oder Grundstückseigentümer. Bei Zuwiderhandeln
+					gegen die Bestimmungen kann ein Flugverbot erteilt werden.</p>
+				<p>Die Benützung des Startgeländes ist nur bis zu folgenden Zeiten erlaubt:<br/>
+					Sommersaison (bei Liftbetrieb)			18:00<br/>
+					Oktober - Dezember (kein Liftbetrieb)	16:00<br/>
+					Wintersaison (bei Liftbetrieb)			17:00<br/>
+					sonst									17:00<br/>
+					(Alle Zeiten sind lokale Zeiten!)
+				</p>
+				<p><strong style="color: red;">Tandem pilots and trainees</strong> register in
+					advance at the flight school. No commercial flights or training
+					without written approval by the flight school or landowners.
+					The failure to comply with these rules may result in a flight
+					ban.</p>
+				<p>Using the launching area is only permitted until:<br/>
+					summer season (active ski lift)		18:00<br/>
+					October - December (no ski lift)	16:00<br/>
+					winter season (active ski lift)		17:00<br/>
+					otherwise							17:00<br/>
+					(all times are local times!)			
+				</p>
+				<p><strong style="color: red;">Držitelé tandemového a školicího průkazu</strong>ještě před startem se nahlaste ve Flugschule. Žádné komerční tandemové lety nebo výcviky bez písemného povolení Flugschule nebo majitele pozemku nejsou možné. Při nerespektování  ustanovení může být udělen zákaz letu.</p>]]>
+			</description>
+			<styleUrl>#transGreenPoly</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.16922841078141,47.66491846094866,0 14.16922424692685,47.66471012993835,0 14.17011568847315,47.66466552095767,0 14.17008973042116,47.66502622063333,0 14.16922841078141,47.66491846094866,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Startplatz Nord</name>
+			<styleUrl>#windsock_icon</styleUrl>
+			<Point>
+				<coordinates>14.17605214793288,47.66804242390273,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Startplatz N-NO (Sommer)</name>
+			<description><![CDATA[
+				<p><strong style="color: green;">Startplatz N-NO</strong></p>
+				<p><strong style="color: green;">Launching area N-NO</strong></p>
+				<p><strong style="color: green;">Startovací plocha S-SV</strong> </p>
+				<p><strong style="color: red;">Tandempiloten und Schulungsbestätigungsinhaber</strong> melden
+					sich vor dem Start bei der Flugschule an. Keine gewerblichen
+					Flüge oder Schulungen ohne schriftliche Genehmigung durch
+					die Flugschule oder Grundstückseigentümer. Bei Zuwiderhandeln
+					gegen die Bestimmungen kann ein Flugverbot erteilt werden.
+					<strong>Im Winter auf den Schibetrieb achten!</strong></p>
+				<p><strong style="color: red;">Tandem pilots and trainees</strong> register in
+					advance at the flight school. No commercial flights or training
+					without written approval by the flight school or landowners.
+					The failure to comply with these rules may result in a flight
+					ban.
+					<strong>In the winter pay attention for skiers!</strong></p>
+				 <p><strong style="color: red;">Držitelé tandemového a školicího průkazu</strong>ještě před startem se nahlaste ve Flugschule. Žádné komerční tandemové lety nebo výcviky bez písemného povolení Flugschule nebo majitele pozemku nejsou možné. Při nerespektování  ustanovení může být udělen zákaz letu.
+				    <strong>V zimní sezóně respektujte lyžaře</strong></p>]]>
+			</description>
+			<styleUrl>#transGreenPoly</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.17682932509556,47.66849999588229,0 14.17633203169348,47.66855503790325,0 14.17604991212588,47.66801514483531,0 14.1765549129462,47.66793685215886,0 14.17682932509556,47.66849999588229,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Startplatz N-NO (Winter)</name>
+			<description><![CDATA[
+				<p><strong style="color: green;">Startplatz N-NO</strong></p>
+				<p><strong style="color: green;">Launching area N-NO</strong></p>
+				<p><strong style="color: green;">Startovací plocha S-SV</strong> </p>
+				<p><strong style="color: red;">Tandempiloten und Schulungsbestätigungsinhaber</strong> melden
+					sich vor dem Start bei der Flugschule an. Keine gewerblichen
+					Flüge oder Schulungen ohne schriftliche Genehmigung durch
+					die Flugschule oder Grundstückseigentümer. Bei Zuwiderhandeln
+					gegen die Bestimmungen kann ein Flugverbot erteilt werden.
+					<strong>Im Winter auf den Schibetrieb achten!</strong></p>
+				<p><strong style="color: red;">Tandem pilots and trainees</strong> register in
+					advance at the flight school. No commercial flights or training
+					without written approval by the flight school or landowners.
+					The failure to comply with these rules may result in a flight
+					ban.
+					<strong>In the winter pay attention for skiers!</strong></p>
+				 <p><strong style="color: red;">Držitelé tandemového a školicího průkazu</strong>ještě před startem se nahlaste ve Flugschule. Žádné komerční tandemové lety nebo výcviky bez písemného povolení Flugschule nebo majitele pozemku nejsou možné. Při nerespektování  ustanovení může být udělen zákaz letu.
+				 <strong>V zimní sezóně respektujte lyžaře</strong></p>]]>
+			</description>
+			<styleUrl>#transGreenPoly</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.17564946308601,47.66740966679299,0 14.17586505145007,47.66732530769346,0 14.17608835919317,47.66750591186521,0 14.17571755914798,47.66767350469932,0 14.17564946308601,47.66740966679299,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder id="landing">
+		<name>Landeplatz</name>
+		<styleUrl>#windsock_icon</styleUrl>
+		<Placemark>
+			<name>Landeplatz Hinterstoder</name>
+			<description><![CDATA[
+				<p><strong style="color: green;">Landeplatz der Flugschule Hinterstoder</strong></p>
+				<p><strong style="color: green;">Landing area of Flugschule Hinterstoder</strong></p>
+				<p><strong style="color: green;">Přistávací plocha Flugschule Hinterstoder</strong></p>
+				<p><strong>Beachte:</strong>
+					Der Wind kann im Sommer zur Mittagszeit sehr stark werden!
+					Den Gleitschirm nur in der dafür vorgesehenen Zone verstauen.
+				</p>
+				<p><strong>Note:</strong>
+					The wind could be very strong in the summer at noon!
+					Pack up the paraglider only in the designated area.
+				</p>
+				<p><strong>V létě kolem poledne může být velmi silný vítr! 
+                 	Padák balte jen ve vyhrazené zóně.</strong>
+                </p>]]>
+		    </description>
+			<styleUrl>#transGreenPoly</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.15167516525698,47.6994755806861,0 14.14997276759954,47.69886520091665,0 14.15038623292214,47.69813877671558,0 14.15227610865227,47.69881901158968,0 14.15167516525698,47.6994755806861,0
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Packzone</name>
+			<description><![CDATA[
+				<p>Bitte den Gleitschirm nur in dieser Zone zusammenpacken.</p>
+				<p>Please pack the paraglider only in this area.</p>
+				<p>Prosím, padák balte jen v této zóně.</p>]]>
+			</description>
+			<styleUrl>#transGreenPoly2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.15215205068533,47.69895789531827,0 14.15184212385873,47.69929968661675,0 14.15169890141374,47.69922928227103,0 14.15201605865807,47.69889668882011,0 14.15215205068533,47.69895789531827,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Landeplatz</name>
+			<styleUrl>#windsock_icon</styleUrl>
+			<Point>
+				<coordinates>14.15127523261292,47.698842,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Links-Landevolte</name>
+			<visibility>1</visibility>
+			<description><![CDATA[
+				<p><strong>Links-Landevolte</strong> bei Wind taleinwärts
+				<ul>
+					<li>Bau deine Höhe über dem Ortszentrum ab</li>
+					<li>Gegenanflug über dem Bach/Stromleitung</li>
+					<li>Queranflug nicht zu dicht beim Haus ansetzen</li>
+					<li>Endanflug nicht zu weit nach vor fliegen LEE-Gefahr</li>
+				</ul>
+				Wind talauswärts erfordert eine Rechts-Landevolte!
+				</p>
+				<p>
+				<strong>turn left</strong> in case of wind into the valley
+				<ul>
+					<li>Reduce your altitude above the center of the village</li>
+					<li>Downwind: over the creek / power line</li>
+					<li>Crosswind: Do not attach too close to the house</li>
+					<li>Final approach: not too far to the end -> LEE danger</li>
+				</ul>
+				Wind out of the valley forces a right turn landing!
+				</p>
+				<p><strong>odbočte vlevo</strong>v případě, že fouká vítr do údolí
+                <ul>
+                    <li>Sniž svou výšku na centrem obce.</li>
+                    <li>Proti přílet: nad potokem/ elektrické vedení</li>
+                    <li>Boční přílet: ne v těsné blízkosti domu</li>
+                    <li>Konečný přílet: neletět příliš daleko dopředu LEE nebezpečí</li>
+                </ul>
+                Vítr z údolí vyžaduje přistání vpravo!
+                </p>]]>
+			</description>
+			<styleUrl>#transblueLine</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					14.15158269638558,47.70002048028837,0 14.14888605766186,47.69914504073276,0 14.1492947073149,47.69826938766342,0 14.15128482936687,47.6988426446466,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Rechts-Landevolte</name>
+			<visibility>0</visibility>
+			<description><![CDATA[
+				<strong>Rechts-Landevolte</strong> bei Wind tailauswärts
+				<ul>
+					<li>Bau deine Höhe über der Siedlung ab</li>
+					<li>Gegenanflug über dem Bach/Stromleitung</li>
+					<li>Queranflug noch vor den Bäumen. Vorsicht Lee-Gefahr</li>
+					<li>Endanflug Richtung taleinwärts</li>
+				</ul>
+				<strong>turn right</strong> in case of wind out of the valley
+				<ul>
+					<li>Reduce your altitude above the village</li>
+					<li>Downwind: over the creek / power line</li>
+					<li>Crosswind: before the trees; beware of lee danger</li>
+					<li>Final approach into the valley</li>
+				</ul>
+				<strong>odbočte v pravo</strong>při větru z údolí
+                <ul>
+                    <li>Sniž svou výšku nad zástavbou</li>
+                    <li>Proti přílet nad potokem / elektrické vedení</li>
+                    <li>Boční přílet ještě před stromy. Pozor LEE - nebezpečí</li>
+                    <li>Koncový přílet směrem do údolí</li>
+                </ul>]]>
+			</description>
+			<styleUrl>#transyellowLine</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					14.14809649663175,47.69891276167332,0 14.1511266880641,47.69988142183159,0 14.15191771776704,47.69909179377692,0 14.15094791082882,47.69873074822241,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Übungsgelände</name>
+			<description><![CDATA[
+				<p><strong>Übungsgelände Flugschule Hinterstoder</strong></p>
+				<p><strong>Training area Flugschule Hinterstoder</strong></p>
+				<p><strong>cvičný terén Flugschule Hinterstoder</strong></p>
+				]]>
+			</description>
+			<styleUrl>#transGreenPoly</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							14.16906505100472,47.70134715689829,0 14.1690969416549,47.70028624079131,0 14.1699203541857,47.70022662680744,0 14.17028694265512,47.70056251660385,0 14.17022062078289,47.70189160733743,0 14.17124027919633,47.70219730045743,0 14.17133889222983,47.70247435502679,0 14.17086800069089,47.70274295684936,0 14.16923661349624,47.70239525191374,0 14.16906505100472,47.70134715689829,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Übungsgelände</name>
+			<styleUrl>#windsock_icon</styleUrl>
+			<Point>
+				<coordinates>14.16951606990161,47.70184702234138,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="spots">
+		<name>Thermik-Spots</name>
+		<styleUrl>#thermik_spot</styleUrl>
+		<Placemark>
+			<name>Danger-Zone</name>
+			<description><![CDATA[
+				<strong style="color: red;">Vorsicht!</strong>
+				<p>Bei starkem Talwind kann es hier zu starken Verwirbelungen kommen. Entweder hoch genug über diese Kante fliegen oder mit ausreichendem Abstand die Gefahrenstelle umfliegen. Lee-Effekt!</p>
+				<strong style="color: red;">Attention!</strong>
+				<p>Heavy turbulences could occure here, due to strong winds in the vally. Either fly high enough over this edge or fly around the danger point with a sufficient distance. Lee-effect!</p>
+				<strong style="color: red;">Pozor</strong>
+                <p>Při silném údolním větru zde mohou být velmi silné turbolence. Leťte buď dost vysoko nad touto hranou nebo nebezpečné místo obleťte s dostatečným odstupem. LEE – efekt!</p>]]>
+			</description>
+			<styleUrl>#danger_icon</styleUrl>
+			<Point>
+				<coordinates>14.14271215408656,47.67442461428642,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#thermik_spot</styleUrl>
+			<Point>
+				<coordinates>14.16206283808839,47.66597491947098,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#thermik_spot</styleUrl>
+			<Point>
+				<coordinates>14.155408,47.668077,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#thermik_spot</styleUrl>
+			<Point>
+				<coordinates>14.146884,47.672462,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#thermik_spot</styleUrl>
+			<Point>
+				<coordinates>14.121953,47.703257,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#thermik_spot</styleUrl>
+			<Point>
+				<coordinates>14.126776,47.721150,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#thermik_spot</styleUrl>
+			<Point>
+				<coordinates>14.179049,47.671888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#thermik_spot</styleUrl>
+			<Point>
+				<coordinates>14.173440,47.680572,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#thermik_spot</styleUrl>
+			<Point>
+				<coordinates>14.162612,47.679082,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#thermik_spot</styleUrl>
+			<Point>
+				<coordinates>14.175721,47.687969,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
